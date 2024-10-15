@@ -6,4 +6,42 @@ header {
 
 #header__text{
     text-align: center;
+    font-weight: medium;
 }
+
+hr {
+    margin-top: 10px;
+    border: 1px solid #E0E0E0;
+}
+
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav, .nav__text {
+    display: flex;
+    gap: 80px;
+}
+
+#header__logo {
+    object-fit: cover;
+}
+
+.nav__link {
+    color: #000;
+    cursor: pointer;
+}
+
+.nav__light {
+    background-color: #5C5C5C;
+    cursor: pointer; 
+    border-radius: 25px;
+}
+
+.material-symbols-outlined {
+    color: whitesmoke;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
