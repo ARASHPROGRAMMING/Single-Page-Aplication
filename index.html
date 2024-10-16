@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dark_mode,light_mode" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/dark.js" defer></script>
+    <script src="js/Responsive.js" defer></script>
     <title>Single Page Aplication</title>
   </head>
   <body>
     <div class="container">
       <header>
         <h2 id="header__text">آموزشکده وب گستر</h2>
+        <div class="hearder__nav">
+          <span class="header__icon"><i class="fa fa-bars"></i></span>
+        </div>
         <hr />
         <nav>
           <img
@@ -22,7 +29,7 @@
             alt="logo"
             width="30"
             height="30" />
-          <p>وبگستر</p>
+          <p class="nav__text">وبگستر</p>
           <ul class="nav__text">
             <li><a class="nav__link" href="#">فرانت اند</a></li>
             <li><a class="nav__link" href="#">بک اند</a></li>
@@ -36,7 +43,7 @@
             type="text"
             id="input__nav"
             placeholder="چه چیزی میخواهید یاد بگیرید" />
-          <button id="btn__login">ورود/عضویت</button>
+          <button id="btn__login">ورود / عضویت</button>
         </nav>
       </header>
     </div>
