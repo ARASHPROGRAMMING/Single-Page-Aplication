@@ -7,9 +7,16 @@ headerIcons.addEventListener("click", () => {
     hamberGurNav.style.left = "0";
     menuBtnIcon.classList.remove("fa-bars");
     menuBtnIcon.classList.add("fa-times");
+    
   } else {
-    hamberGurNav.style.left = "80rem";
+    hamberGurNav.style.left = "100%";
     menuBtnIcon.classList.remove("fa-times");
     menuBtnIcon.classList.add("fa-bars");
   }
 });
+
+
+
+
+
+

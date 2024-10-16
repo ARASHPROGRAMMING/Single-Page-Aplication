@@ -1,50 +1,60 @@
+@font-face {
+  font-family: Iransans;
+  src: url(../fonts/IRANSansXFaNum-Black.ttf);
+  font-weight: black;
+}
 
 @font-face {
-    font-family: Iransans;
-    src: url(../fonts/IRANSansXFaNum-Black.ttf);
-    font-weight: black;
-  }
+  font-family: Iransans;
+  src: url(../fonts/IRANSansXFaNum-Bold.ttf);
+  font-weight: bold;
+}
 
-  @font-face {
-    font-family: Iransans;
-    src: url(../fonts/IRANSansXFaNum-Bold.ttf);
-    font-weight: bold;
-  }
+@font-face {
+  font-family: Iransans;
+  src: url(../fonts/IRANSansXFaNum-Light.ttf);
+  font-weight: light;
+}
 
-  @font-face {
-    font-family: Iransans;
-    src: url(../fonts/IRANSansXFaNum-Light.ttf);
-    font-weight: light;
-  }
+@font-face {
+  font-family: Iransans;
+  src: url(../fonts/IRANSansXFaNum-Medium.ttf);
+  font-weight: medium;
+}
 
-  @font-face {
-    font-family: Iransans;
-    src: url(../fonts/IRANSansXFaNum-Medium.ttf);
-    font-weight: medium;
-  }
-
-  @font-face {
-    font-family: Iransans;
-    src: url(../fonts/IRANSansXFaNum-Thin.ttf);
-    font-weight: Thin;
-  }
+@font-face {
+  font-family: Iransans;
+  src: url(../fonts/IRANSansXFaNum-Thin.ttf);
+  font-weight: Thin;
+}
 * {
-    margin: 0;
-    padding: 0;
-    direction: rtl;
-    font-family: Iransans;
-    font-weight: bold;
-    list-style: none;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: Iransans;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-    background: #EBEBEB;
+  background: #ebebeb;
 }
 
-
 .container {
-    width: 90%;
-    margin: 0 auto;
-    /* background: #000; */
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  margin-bottom: 10px;
+  /* background: #000; */
+  /* height: ; */
+}
+.containesecond {
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  margin-bottom: 10px;
+  /* background: #000; */
+  /* height: ; */
 }
