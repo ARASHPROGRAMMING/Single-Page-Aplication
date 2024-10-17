@@ -8,12 +8,6 @@ body.dark__body .nav__link {
   color: whitesmoke;
 }
 
-.main__heaer {
-  display: flex;
+body.dark__body p {
+  color: whitesmoke;
 }
-
-/* .main__qwlwpdw {
-  width: 100%;
-  height: 600px;
-  background: red;
-} */

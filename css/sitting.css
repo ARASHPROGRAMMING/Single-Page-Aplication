@@ -27,6 +27,7 @@
   src: url(../fonts/IRANSansXFaNum-Thin.ttf);
   font-weight: Thin;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -47,14 +48,4 @@ body {
   margin: 0 auto;
   padding: 1rem 1rem;
   margin-bottom: 10px;
-  /* background: #000; */
-  /* height: ; */
-}
-.containesecond {
-  max-width: 85rem;
-  margin: 0 auto;
-  padding: 1rem 1rem;
-  margin-bottom: 10px;
-  /* background: #000; */
-  /* height: ; */
 }
