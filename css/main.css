@@ -12,14 +12,21 @@ body.dark__body .nav__link {
 body.dark__body p {
   color: whitesmoke;
 }
-/* end Dark mode */
 
+body.dark__body p#card__caption {
+  color: #0f574e;
+}
+
+body.dark__body #svg__logo {
+  filter: brightness(0) invert(1);
+
+}
+/* end Dark mode */
 
 #text__coursers {
   margin-bottom: 15px;
   margin-right: 20px;
 }
-
 
 .main__btn {
   display: flex;
@@ -33,7 +40,7 @@ body.dark__body p {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  background: #5C5C5C;
+  background: #5c5c5c;
   border-radius: 10px;
   color: whitesmoke;
   padding: 10px;
@@ -42,4 +49,66 @@ body.dark__body p {
 
 #btn__courses:nth-child(1) img {
   filter: brightness(0) invert(1);
+}
+
+#main__title {
+  margin-top: 50px;
+}
+
+#text___logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  float: left;
+}
+
+#svg__logo {
+  filter: invert(0%) brightness(0%);
+}
+.root {
+  display: flex;
+  gap: 180px;
+}
+
+.card {
+  width: 325px;
+  height: 430px;
+  color: #0f574e;
+  background: #d37f73;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+#img__card {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#card__caption {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+#card__master {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#card__hr {
+  margin-top: 10px;
+  border: 0.1px solid whitesmoke;
+}
+
+#card__price,
+#card__time {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 245px;
+}
+
+#card__price {
+  margin-top: 5px;
 }
