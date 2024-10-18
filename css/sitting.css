@@ -1,3 +1,4 @@
+/* font face */
 @font-face {
   font-family: Iransans;
   src: url(../fonts/IRANSansXFaNum-Black.ttf);
@@ -27,6 +28,7 @@
   src: url(../fonts/IRANSansXFaNum-Thin.ttf);
   font-weight: Thin;
 }
+/* font face */
 
 * {
   box-sizing: border-box;
