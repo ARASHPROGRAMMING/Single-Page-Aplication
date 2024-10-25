@@ -1,4 +1,4 @@
-const dataBaseSite = [
+const dataCourses = [
   {
     id: 1,
     image: "../images/htmlCourse.jpg",
@@ -78,3 +78,7 @@ const dataBaseSite = [
   },
 
 ];
+
+const dataArticle = [
+  {}
+]

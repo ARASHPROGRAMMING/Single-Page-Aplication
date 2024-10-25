@@ -1,7 +1,7 @@
 const root = document.querySelector(".root");
 
 function renderCard() {
-  let card = dataBaseSite
+  let card = dataCourses
     .map(item => {
       return `
             <div class="card">
