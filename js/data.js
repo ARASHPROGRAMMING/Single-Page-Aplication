@@ -1,3 +1,4 @@
+// DataCourses
 const dataCourses = [
   {
     id: 1,
@@ -76,9 +77,7 @@ const dataCourses = [
     price: "رایگان",
     priceLog: "../images/moneyLogo.svg",
   },
-
 ];
 
-const dataArticle = [
-  {}
-]
+// DataArticle
+const dataArticle = [{}];
